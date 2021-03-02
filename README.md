@@ -1,3 +1,3 @@
-"# [2017] Fiji Travel"
+# [2017] Fiji Travel
 
 To start open index.html
