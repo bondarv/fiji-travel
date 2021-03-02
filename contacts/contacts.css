@@ -1,0 +1,16 @@
+/*Content*/
+
+main {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+	main p {
+		margin-bottom: 20px;
+		font-size: 20px;
+		text-indent: 25px;
+	}
+	
+	main h1 {
+		margin-bottom: 10px;
+	}

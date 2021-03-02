@@ -1,0 +1,72 @@
+/*Sidebar*/
+
+aside {
+	margin-top: 42px;
+	float: right;
+	width: 250px;
+}
+
+	video { margin: 40px 0 30px 0; }
+	
+	h3 {
+		margin-top: 25px;
+		letter-spacing: -1px;
+		font-size: 24px;
+		text-align: right;
+	}
+	
+	.meta {
+		margin: 7px 0px;
+		text-align: right;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		font-style: italic;
+	}
+	
+	p.review {
+		margin-top: 5px;
+		padding-bottom: 25px;
+		line-height: 25px;
+		border-bottom: 1px dashed #B3B0B0;
+	}
+	
+	aside div:last-child p.review { border: none; }
+
+/*Content*/
+
+main {
+	margin-right: 290px;
+	margin-top: 55px;
+	line-height: 25px;
+}
+
+	main div { margin-bottom: 30px; }
+
+		main div:last-child { margin-bottom: 69px; }
+
+	main h2{
+		letter-spacing: -2px;
+		font-size: 34px;
+	}
+
+	main p { margin-bottom: 15px; }
+
+	main img {
+		border: 6px solid #EEE7DF;
+		margin: 25px 0 21px 0;
+		width: 100%;
+	}
+
+@media screen and (max-width: 800px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    margin-right: 12px;
+  }
+
+  nav li {
+    margin-bottom: 27px;
+  }
+}

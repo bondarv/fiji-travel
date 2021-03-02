@@ -1,0 +1,31 @@
+/*Content*/
+
+main {
+	margin-top: 55px;
+	line-height: 25px;
+}
+
+	main div { margin-bottom: 60px; }
+
+	main h2 {
+		letter-spacing: -2px;
+		font-size: 34px;
+		text-transform: uppercase;
+	}
+
+	.meta {
+		margin-top: 7px;
+    	font-size: 11px;
+    	font-style: italic;
+	}
+
+	main img {
+		outline: 6px solid #EEE7DF;
+		margin-top: 14px;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	
+	main p {
+		text-indent: 25px;
+	}

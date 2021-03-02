@@ -1,0 +1,50 @@
+/*Content*/
+
+main {
+	margin-top: 50px;
+}
+
+	main img {
+		border: 6px solid #EEE7DF;
+		box-sizing: border-box;
+		height: 290px;
+		margin-bottom: 30px;
+	}
+
+@media screen and (max-width: 600px) {
+	main img {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	main img {
+		display: inline-block;
+		width: 47%;
+		margin-right: 5%;
+	}
+
+	main img:nth-child(2n) {
+			margin-right: 0;
+			margin-left: 0;
+		}
+}
+
+@media screen and (min-width: 900px) {
+
+	main img {
+		display: inline-block;
+		width: 30%;
+	}
+
+		main img:nth-child(2) {
+			margin-left: 4%;
+			margin-right: 4%;
+		}
+		
+		main img:nth-child(5) {
+			margin-left: 4%;
+			margin-right: 4%;
+		}
+}
